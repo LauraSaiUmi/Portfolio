@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+header {
+    background-color: #EBD378;
+    padding: 16px 24px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar {
+    gap: 32px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.navbar a{
+    font-size: 16px;
+}
+.logo li{
+    font-size: 24px;
+}
+.titulo {
+    font-size: 48px;
+    font-weight: bold;
+}
+p {
+    font-size: 32px;
+}
+.foto-personal {
+    width: 488px;
+    height: 312px;
+}
+.descripcion {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 56px;
+width: 80%;
+}
+.infoperso {
+    align-items: center;
+    justify-content: center;
+    padding: 112px 152px;
+    gap: 40px;
+}
+.titulo2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.info2 {
+    font-size: 24px;
+}
+.portada {
+    width: 400px;
+    height: 256px;
+}
+.workinfo {
+    display: flex;
+    background-color: #9E319A;
+    padding: 32px;
+    border-radius: 16px;
+    align-items: center;
+    gap: 40px;
+}
+.descripcion a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    width: 150px;
+    border-radius: 16px;
+    background-color: #EBD378;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    border: 2px solid #EBD378;
+}
+.workinfo2 {
+    display: flex;
+    background-color: #EA5FE5;
+    padding: 32px;
+    border-radius: 16px;
+    align-items: center;
+    gap: 40px;
+}
+.workinfo3 {
+    display: flex;
+    background-color: #399E91;
+    padding: 32px;
+    border-radius: 16px;
+    align-items: center;
+    gap: 40px;
+}
+.workinfo4 {
+    display: flex;
+    background-color: #49EBD5;
+    padding: 32px;
+    border-radius: 16px;
+    align-items: center;
+    gap: 40px;
+}
+footer {
+    background-color: #EBD378;
+    padding: 16px 24px;
+}
+.flex-container2{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.footbar {
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.botones a:hover {
+    font-weight: bold;
+}
+.icons  a:hover {
+    font-size: 1.5em;
+}
+.descripcion  a:hover {
+    background-color: beige;
+    border: 2px solid #EBD378;
+}
+.form-container {
+    background-color: #f5e9bc;
+    width: 760px;
+    height: 440px;
+    margin: 0 auto 32px auto;
+    padding: 20px;
+    border-radius: 16px;
+  }
+  .submit a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    margin-top: 56px;
+    width: 150px;
+    border-radius: 16px;
+    background-color: #EBD378;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    border: 2px solid #EBD378;
+  }
+.submit a:hover {
+    background-color: beige;
+    border: 2px solid #EBD378;
+}
+.inputs {
+    margin-bottom: 24px;
+}
+.inputs input {
+    width: 600px;
+    height: 100%;
+    padding: 10px;
+    border-radius: 16px;
+    border: none;
+}
+.submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 0;
+}
+.mensaje {
+    height: 88px;
+}
+.work {
+    size: 100%;
+    line-height: normal;
+    margin: 32px 0 0 32px;
+    padding: 32px;
+}
+.proceso {
+    width: 1200px;
+    height: 800px;
+    margin-left: 112px;
+}
+.espacio {
+    margin-bottom: 24px;
+}
+.descripcion2 {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 56px;
+width: 100%;}
+.workinfo5 {
+        display: flex;
+        background-color: #f5e9bc;
+        padding: 32px;
+        border-radius: 16px;
+        align-items: center;
+        gap: 40px;
+}
+.cofre {
+    width: 248px;
+    height: 232px;
+}
+.infoperso2 {
+    height: 100%;
+    gap: 64px;
+    margin-bottom: 44px;
+    align-items: center;
+    justify-content: center;
+}
+.lista {
+    padding: 40px;
+    background-color: #49EBD5;
+    border-radius: 16px;
+height: 90%;
+}
+.lista li{
+    margin-bottom: 12px;
+}
+.letra {
+    font-size: 24px;
+}
+.lista2 {
+    padding: 40px;
+    background-color:#EA5FE5;
+    border-radius: 16px;
+}
+.lista2 li{
+    margin-bottom: 12px;
+}
